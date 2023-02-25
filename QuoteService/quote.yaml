@@ -7,4 +7,4 @@ spec:
   - name: quote-container
     image: moumani/quote-image:latest
     ports:
-    - containerPort: 80
+    - containerPort: 5000
