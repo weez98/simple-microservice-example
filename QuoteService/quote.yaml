@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: quote-pod
+spec:
+  containers:
+  - name: quote-container
+    image: moumani/quote-image:latest
+    ports:
+    - containerPort: 80
