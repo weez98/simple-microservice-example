@@ -7,4 +7,4 @@ spec:
   - name: frontend-container
     image: moumani/frontend-image:latest
     ports:
-    - containerPort: 3000
+    - containerPort: 80
